@@ -6,13 +6,7 @@ export function NavBar({ items, activeKey, onSelect, onSearch, userLabel, onSign
     <header className="sticky top-0 z-40 border-b border-white/10 bg-linear-to-b from-black/85 to-black/40 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
         <div className="flex items-center gap-3">
-          <div className="grid size-9 place-items-center rounded-md bg-red-600 text-sm font-black tracking-wide">
-            SF
-          </div>
-          <div className="hidden sm:block">
-            <div className="text-sm font-semibold leading-4">Shortform</div>
-            <div className="text-xs text-zinc-400">Storefront</div>
-          </div>
+          <img src="./Netflix.png" alt="" className="h-10 w-10" />
         </div>
 
         <nav className="ml-2 hidden flex-1 items-center gap-1 md:flex" aria-label="Primary">

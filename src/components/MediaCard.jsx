@@ -22,7 +22,7 @@ export function MediaCard({ item, onOpen }) {
       onClick={() => onOpen(item)}
       className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 text-left shadow-[0_20px_80px_rgba(0,0,0,0.4)] transition hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/7 focus-visible:outline-none motion-reduce:transform-none"
     >
-      <div className="aspect-[16/10 w-full overflow-hidden bg-gradient-to-br from-white/10 to-white/0">
+      <div className="aspect-[16/10 w-full overflow-hidden bg-linear-to-br from-white/10 to-white/0">
         {item?.image && !imgErrored ? (
           <img
             src={item.image}

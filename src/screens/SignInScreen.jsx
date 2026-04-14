@@ -20,7 +20,7 @@ export function SignInScreen({ onSignedIn }) {
         <div className="grid w-full gap-10 lg:grid-cols-2">
           <div className="self-center">
             <div className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-zinc-200">
-              <span className="grid size-7 place-items-center rounded-full bg-red-600 font-black">B</span>
+              <img src="./Netflix.png" alt="" className="h-10 w-10" />
               <span>Binaire App Assignment</span>
             </div>
             <h1 className="mt-6 text-balance text-4xl font-black tracking-tight sm:text-5xl">
