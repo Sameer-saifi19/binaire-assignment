@@ -56,8 +56,7 @@ export function HomeScreen({ category }) {
               </span>
             </div>
             <p className="mt-4 max-w-prose text-pretty text-sm leading-6 text-zinc-300">
-              Scroll to load more titles (infinite scrolling). Images are lazy-loaded, and requests
-              are abortable to avoid memory leaks during rapid navigation.
+              Scroll to load more titles (infinite scrolling). Images are lazy-loaded
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               <button
