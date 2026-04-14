@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Small global tweaks to match a "Netflix-style" look. */
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #05070d;
+}
+
+/* A nicer, consistent focus ring (Tailwind still works normally). */
+:focus-visible {
+  outline: 2px solid rgba(239, 68, 68, 0.9);
+  outline-offset: 2px;
+}
